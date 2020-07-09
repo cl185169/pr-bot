@@ -1,0 +1,14 @@
+{
+  "name": "pr-bot",
+  "version": "1.0.0",
+  "description": "Bot for commenting on PR",
+  "main": "index.js",
+  "repository": "https://github.com/cl185169/pr-bot.git",
+  "author": "ConnorLacy <lacyconnor1409@gmail.com>",
+  "license": "n",
+  "private": true,
+  "dependencies": {
+    "@actions/core": "^1.2.4",
+    "@actions/github": "^4.0.0"
+  }
+}

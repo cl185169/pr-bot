@@ -1,0 +1,14 @@
+name: 'PR Bot'
+description: 'Leaves comments on your PR's
+inputs:
+  body: 
+    description: 'Body of comment for bot to comment on PR'
+    required: false
+    default: 'Customize this message in your workflow!'
+outputs:
+  success:
+    description: 'Wether or not the comment was successfully posted'
+
+runs: 
+  using: 'node12'
+  main: 'index.js'
